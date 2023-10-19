@@ -243,14 +243,9 @@ form .btn .btn-layer{
   color:#FFF
 }
 
-
-
-
 .btn-facebook > span {
   background:#3b5998
 }
-
-
 
 
 .btn-googleplus > span {
@@ -267,10 +262,37 @@ form .btn .btn-layer{
   background:#007bb6
 }
 
+.button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 17px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 330px;
+}
 
+.button-u {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 330px;
+}
 
-
-    </style>
+</style>
 </head>
 <body>
     <div class="wrapper">
@@ -297,10 +319,10 @@ form .btn .btn-layer{
               <div style="margin-bottom: 5px;" class="pass-link"><a href="#">Forgot password?</a></div>
               <input type="checkbox" name="remember_me" id="remember_me">
               <label for="remember_me">Remember me</label>
-              <div class="field btn">
-                <div class="btn-layer"></div>
-                <input type="submit" value="Sign In">
+              <div style="width: 100%;">
+              <button class="button">Sign In</button>
               </div>
+              <br>
               <div>
               <div style="text-align: center; margin-top: 10px;">
                 or
@@ -326,9 +348,9 @@ form .btn .btn-layer{
                 <input type="password" placeholder="Confirm password" required>
               </div>
               <div class="field btn">
-                <div class="btn-layer"></div>
-                <input type="submit" value="Sign Up">
-              </div>
+                <div style="width: 100%;">
+                    <button class="button-u">Sign Up</button>
+                </div>
             </form>
           </div>
         </div>
